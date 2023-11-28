@@ -14,7 +14,6 @@
 		88FC2C3B2B15E528006E04AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88FC2C3A2B15E528006E04AC /* Assets.xcassets */; };
 		88FC2C3E2B15E528006E04AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88FC2C3C2B15E528006E04AC /* LaunchScreen.storyboard */; };
 		88FC2C462B15E895006E04AC /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FC2C452B15E895006E04AC /* WelcomeViewController.swift */; };
-		88FC2C482B15EADF006E04AC /* SegueIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FC2C472B15EADF006E04AC /* SegueIdentifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +26,6 @@
 		88FC2C3D2B15E528006E04AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88FC2C3F2B15E528006E04AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88FC2C452B15E895006E04AC /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
-		88FC2C472B15EADF006E04AC /* SegueIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueIdentifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +63,6 @@
 				88FC2C352B15E527006E04AC /* LoginViewController.swift */,
 				88FC2C452B15E895006E04AC /* WelcomeViewController.swift */,
 				88FC2C372B15E527006E04AC /* Main.storyboard */,
-				88FC2C472B15EADF006E04AC /* SegueIdentifier.swift */,
 				88FC2C3A2B15E528006E04AC /* Assets.xcassets */,
 				88FC2C3C2B15E528006E04AC /* LaunchScreen.storyboard */,
 				88FC2C3F2B15E528006E04AC /* Info.plist */,
@@ -147,7 +144,6 @@
 				88FC2C362B15E527006E04AC /* LoginViewController.swift in Sources */,
 				88FC2C462B15E895006E04AC /* WelcomeViewController.swift in Sources */,
 				88FC2C322B15E527006E04AC /* AppDelegate.swift in Sources */,
-				88FC2C482B15EADF006E04AC /* SegueIdentifier.swift in Sources */,
 				88FC2C342B15E527006E04AC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

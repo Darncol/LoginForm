@@ -22,19 +22,25 @@
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="User Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="X1B-NJ-s0a">
                                         <rect key="frame" x="0.0" y="0.0" width="270" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="BYZ-38-t0r" id="YDb-ZL-d3B"/>
+                                        </connections>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wJp-Xi-wsf">
                                         <rect key="frame" x="0.0" y="59" width="270" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="BYZ-38-t0r" id="wvm-sx-Mol"/>
+                                        </connections>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="frp-0o-8We">
                                         <rect key="frame" x="0.0" y="118" width="270" height="34.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Log In"/>
                                         <connections>
-                                            <action selector="loginButtonTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="p8g-L2-hCY"/>
+                                            <segue destination="bKo-A6-kaC" kind="show" identifier="welcomeScreen" id="Nzq-yk-gnO"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -80,7 +86,6 @@
                     <connections>
                         <outlet property="userLoginTextField" destination="X1B-NJ-s0a" id="qwe-d8-895"/>
                         <outlet property="userPasswordTextField" destination="wJp-Xi-wsf" id="Jkf-dO-NoK"/>
-                        <segue destination="bKo-A6-kaC" kind="show" identifier="login" id="qMP-JH-KOB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -134,6 +139,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="7tK-fc-hGG"/>
+                    <connections>
+                        <outlet property="WelcomeLabel" destination="KwR-MF-4Ff" id="5tz-bR-dgX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="57t-jm-Vdx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="sGT-dY-QzX" userLabel="Exit" sceneMemberID="exit"/>
